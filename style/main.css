@@ -1,13 +1,15 @@
-body {
-    margin: 0; 
+body,
+html {
+    border: 0;
     padding: 0;
+    margin: 0;
 }
 
-#mapcontainer {
-    width: 100vw; 
+#map{
+    width: 100vw;
     height: 100vh;
-    z-index: 0;
 }
+
 
 .topButton {
     background: linear-gradient(90deg, rgba(165,102,255,1) 35%, rgba(72,218,208,1) 100%);
@@ -24,11 +26,10 @@ body {
 	padding:5px 7px;
 	text-decoration:none;
 }
-.topButton:hover {
+
+.topButton:active {
     background: linear-gradient(90deg, rgba(252,219,127,1) 35%, rgba(72,218,208,1) 100%);
     color: #000000;
-}
-.topButton:active {
 	position:relative;
 	top:1px;
 }
