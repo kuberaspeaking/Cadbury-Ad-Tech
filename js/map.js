@@ -29,7 +29,7 @@ var ui = H.ui.UI.createDefault(map, defaultLayers);
 var service = platform.getSearchService();
 
 var provider = map.getBaseLayer().getProvider();
-var style = new H.map.Style('../style/cesStyle.yaml','https://js.api.here.com/v3/3.1/styles/omv/');
+var style = new H.map.Style('style/cesStyle.yaml','https://js.api.here.com/v3/3.1/styles/omv/');
 provider.setStyle(style);
 
 
